@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MenuDesplegable</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Soy la persona 1</string>
+    <string name="persona_2">Persona 2</string>
+    <string name="persona_1">Persona 1</string>
+    <string name="fragmento_de_la_persona_1">Fragmento de la persona 1</string>
+    <string name="primeras_personas">Primeras Personas</string>
+    <string name="search">Search</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:enabled="false"
+        android:title="@string/primeras_personas" >
+        <menu >
+            <item
+                android:id="@+id/idmenupersona1"
+                android:actionLayout="@layout/fragment_persona1"
+                android:contentDescription="@string/fragmento_de_la_persona_1"
+                android:icon="@drawable/persona1"
+                android:title="@string/persona_1" />
+            <item
+                android:id="@+id/idmenupersona2"
+                android:actionLayout="@layout/fragment_persona2"
+                android:icon="@drawable/persona2"
+                android:title="@string/persona_2" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/app_bar_search"
+        android:actionLayout="@layout/activity_main"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/search"
+        app:actionViewClass="android.widget.SearchView" />
+</menu>
