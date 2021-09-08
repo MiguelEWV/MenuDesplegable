@@ -6,29 +6,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    tools:openDrawer="start">
+    tools:openDrawer="start"
+    >
 
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
         android:name="com.miguelewv.menudesplegable.Persona1Fragment"
         android:layout_width="match_parent"
-        android:layout_height="664dp" />
+        android:layout_height="match_parent" />
 
     <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-
         android:foreground="@color/azultrasnparente"
         android:verticalScrollbarPosition="left"
-
         app:headerLayout="@layout/cabecera_del_menu"
         app:itemIconSize="32dp"
         app:itemIconTint="@color/teal_200"
         app:menu="@menu/menu_del_menu" />
+
+
+
 
 
 </androidx.drawerlayout.widget.DrawerLayout>
