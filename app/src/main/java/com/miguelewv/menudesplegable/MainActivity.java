@@ -20,7 +20,7 @@ import com.google.android.material.navigation.NavigationView;
 public class MainActivity extends AppCompatActivity
 
     implements NavigationView.OnNavigationItemSelectedListener, Persona1Fragment.OnFragmentInterationListener
-
+//OJO 19. Navigation Drawer. (Programación Android Studio tutorial español) minuto 35
 {
 
 
