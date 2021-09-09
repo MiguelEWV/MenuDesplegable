@@ -2,17 +2,10 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/opciones_del_menu"
-    app:startDestination="@id/persona1Fragment">
-
-    <fragment
-        android:id="@+id/persona1Fragment"
-        android:name="com.miguelewv.menudesplegable.Persona1Fragment"
-        android:label="fragment_persona1"
-        tools:layout="@layout/fragment_persona1" />
-    <fragment
-        android:id="@+id/persona2Fragment"
-        android:name="com.miguelewv.menudesplegable.Persona2Fragment"
+    android:id="@+id/opciones_del_menu">
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.miguelewv.menudesplegable.MainActivity"
         android:label="fragment_persona2"
         tools:layout="@layout/fragment_persona2" />
 </navigation>

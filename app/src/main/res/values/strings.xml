@@ -7,4 +7,5 @@
     <string name="fragmento_de_la_persona_1">Fragmento de la persona 1</string>
     <string name="primeras_personas">Primeras Personas</string>
     <string name="search">Search</string>
+    <string name="google">http://www.google.com</string>
 </resources>

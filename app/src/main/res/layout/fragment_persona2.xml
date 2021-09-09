@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Persona2Fragment">
+    tools:context=".MainActivity">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -16,7 +16,7 @@
         android:translationY="30dp" />
 
     <WebView
-        android:id="@+id/web"
+        android:id="@+id/idWebView"
         android:layout_width="match_parent"
         android:layout_height="500dp"
         android:translationY="100dp" />

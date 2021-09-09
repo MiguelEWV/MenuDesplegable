@@ -11,7 +11,7 @@
         <menu >
             <item
                 android:id="@+id/idmenupersona1"
-                android:actionLayout="@layout/fragment_persona1"
+                android:actionLayout="@layout/activity_main"
                 android:contentDescription="@string/fragmento_de_la_persona_1"
                 android:icon="@drawable/persona1"
                 android:title="@string/persona_1" />
